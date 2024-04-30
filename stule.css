@@ -1,0 +1,23 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    position: absolute;
+}
+.box:nth-child(1){
+    background-color: #7ee769;
+    z-index: 2;
+    left: 50px;
+}
+.box:nth-child(2){
+    background-color: #69a8e7;
+    z-index: 3;
+    left: 120px;
+    top: 80px;
+}
+.box:nth-child(3){
+    background-color: #e7e569;
+    z-index: 1;
+    left: 180px;
+    top: 170px;
+}
